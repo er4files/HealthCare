@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/menu/bottom_navigation_menu.xml -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/baseline_home_24"
+        android:title="Home"
+        app:itemIconTint="@color/white" />
+
+    <item
+        android:id="@+id/navigation_notification"
+        android:icon="@drawable/baseline_notifications_24"
+        android:title="Notification"
+        app:itemIconTint="@color/white" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/baseline_person_24"
+        android:title="Profile"
+        app:itemIconTint="@color/white" />
+</menu>
